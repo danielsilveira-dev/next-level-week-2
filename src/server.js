@@ -9,7 +9,7 @@ const proffys = [
         cost: "20", 
         weekday: [0], 
         time_from: [720], 
-        time_to: [1220]
+        time_to: [1220],
     },
     { 
         name: "Daniele Evangelista", 
@@ -20,7 +20,7 @@ const proffys = [
         cost: "20", 
         weekday: [1], 
         time_from: [720], 
-        time_to: [1220]
+        time_to: [1220],
     },
     {
         name: "Maik Brito", 
@@ -31,7 +31,7 @@ const proffys = [
         cost: "20", 
         weekday: [1], 
         time_from: [720], 
-        time_to: [1220]
+        time_to: [1220],
     },
 ]
 

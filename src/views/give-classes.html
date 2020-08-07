@@ -38,7 +38,7 @@
         </header>
 
         <main>
-            <form action="create-class">
+            <form action="" id="create-class">
                 <fieldset>
                     <legend>Seus dados</legend>
                     <div class="input-block">
@@ -72,6 +72,7 @@
                                 {%endfor%}
                         </select>
                     </div>
+
                     <div class="input-block">
                         <label for="cost"> Custo da sua hora/aula
                             <small>(R$)</small>
@@ -115,7 +116,7 @@
                     <img src="/images/icons/warning.svg" alt="Aviso importante">
                     Importante! <br> Preencha todos os dados
                 </p>
-                <button type="submit" for="create-class">Salvar cadastro</button> <!-- Como o botão foi colocado fora do formulário de cadastro, colocamos a propriedade "for="create-class""" para linkar com o formulário.  -->
+                <button type="submit" form="create-class">Salvar cadastro</button> <!-- Como o botão foi colocado fora do formulário de cadastro, colocamos a propriedade "for="create-class""" para linkar com o formulário.  -->
             </footer>
         </main>
     </div>
